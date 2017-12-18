@@ -1,1 +1,1 @@
-# Go To [Home Smart Mesh website](https://www.homesmartmesh.github.io)
+# Go To [Home Smart Mesh website](http://www.homesmartmesh.github.io)
