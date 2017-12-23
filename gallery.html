@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/gh-ribbon.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
   </head>
   <body>
       <a class="github-fork-ribbon" href="https://github.com/HomeSmartMesh/IoT_Frameworks" target="_blank" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
@@ -26,19 +27,65 @@
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
             <li class="active"><a href="gallery.html">Gallery</a></li>
-            <!-- <li><a href="#">Protocol</a></li>
-            <li><a href="#">About</a></li> -->
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <!--<li><a href="#">About</a></li> -->
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- <div class="wrapper">
-      <div class="box a col-xs-6 col-sm-3" style="background-color:lightcyan;">A</div>
-      <div class="box b col-xs-6 col-sm-3" style="background-color:lightcyan;">B</div>
-      <div class="box c col-xs-6 col-sm-3" style="background-color:lightcyan;">C</div>
-      <div class="box d col-xs-6 col-sm-3" style="background-color:lightcyan;">D</div>
-    </div> -->
-
+      
+      <div class="gallery">
+        <a target="_blank" href="images/IoTSoftware.png">
+          <img src="images/IoTSoftware.png" alt="IoTSoftware">
+        </a>
+        <div class="desc">
+          <h4>Integrated Software into the IoT Framework</h4>
+          
+          <ul style="text-align:left">
+            <li>C++ RF Gateway: RF Mesh network to MQTT</li>
+            <li>Mosquitto: MQTT Broquer</li>
+            <li>Mongodb: Document Database for complex structures data</li>
+            <li>InfluxDB: Timeseries Database for simple values over time</li>
+            <li>Grafana: Generic exploration of time series data</li>
+            <li>React+D3js: Highly customised frontend webapp</li>
+            <li>OpenHAB2: forwards connected devices to MQTT (Smart sockets,...)</li>
+            <li>NodeRed: Easy High level IoT rules</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="gallery">
+          <a target="_blank" href="images/MeshProtocol.png">
+            <img src="images/MeshProtocol.png" alt="Mesh Protocol">
+          </a>
+          <div class="desc">
+            <h4>Binary RF Packets Format</h4>
+            <ul style="text-align:left">
+              <li>Pid: Function Id (e.g. light, temperature,...)</li>
+              <li>CRC: 16 bit Error Protection</li>
+              <li>Broadcast: simple packet flood to all of the mesh listeners</li>
+              <li>Peer to peer: reliable end to end communication</li>
+              <li>Message: Handling of the acknowledge by the stack</li>
+              <li>Streaming: possible to drop the acknowledge for higher throughput</li>
+              <li>Time to live: configurable from the sender</li>
+            </ul>
+          </div>
+        </div>
+  
+      <div class="gallery">
+        <a target="_blank" href="images/IoT_Node_Mobile_v2.jpg">
+          <img src="images/IoT_Node_Mobile_v2.jpg" alt="IoT_Node_Mobile_v2">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="images/MeshUsecases.png">
+          <img src="images/MeshUsecases.png" alt="MeshUsecases">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      
   </body>
 </html>
