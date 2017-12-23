@@ -1,9 +1,15 @@
-div.galleryw {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 24%;
-}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ccc;
+  }
+  
+  .flex-container>div {
+    background-color: #f1f1f1;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+  }
 
 div.gallery {
     margin: 5px;
